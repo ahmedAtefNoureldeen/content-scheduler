@@ -32,7 +32,7 @@ Before installation, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/ahmedAtefNoureldeen/content-scheduler.git
-cd social-scheduler
+cd content-scheduler
 ```
 
 ### 2. Backend Setup

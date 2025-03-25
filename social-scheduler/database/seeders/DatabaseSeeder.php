@@ -22,7 +22,6 @@ class DatabaseSeeder extends Seeder
         
         $this->call([
             PlatformSeeder::class,
-            UserSeeder::class,
             PostSeeder::class,
         ]);
     }

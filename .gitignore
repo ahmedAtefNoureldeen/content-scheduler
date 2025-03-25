@@ -1,0 +1,50 @@
+# Laravel specific
+/social-scheduler/vendor/
+/social-scheduler/node_modules/
+/social-scheduler/public/hot
+/social-scheduler/public/storage
+/social-scheduler/storage/*.key
+/social-scheduler/.env
+/social-scheduler/.env.backup
+/social-scheduler/.phpunit.result.cache
+/social-scheduler/Homestead.json
+/social-scheduler/Homestead.yaml
+/social-scheduler/npm-debug.log
+/social-scheduler/yarn-error.log
+
+# React specific
+/social-scheduler-front/node_modules/
+/social-scheduler-front/.pnp
+/social-scheduler-front/.pnp.js
+/social-scheduler-front/coverage
+/social-scheduler-front/build
+/social-scheduler-front/.env.local
+/social-scheduler-front/.env.development.local
+/social-scheduler-front/.env.test.local
+/social-scheduler-front/.env.production.local
+/social-scheduler-front/npm-debug.log*
+/social-scheduler-front/yarn-debug.log*
+/social-scheduler-front/yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo

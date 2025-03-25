@@ -10,7 +10,7 @@ export function useCreatePost() {
     mutationFn: PostService.createPost,
     onSuccess: () => {
       toast.success("New post successfully created");
-      navigate("/dashboard", { replace: true });
+      navigate("/", { replace: true });
 
     },
     onError: (err) => toast.error(err.message),

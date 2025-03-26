@@ -14,7 +14,7 @@ export function useSignup() {
     mutationFn: ({ email, password , name, password_confirmation }) => AuthService.register( name, email , password, password_confirmation),
     onSuccess: (user) => {
       queryClient.setQueryData(['user'], user.user);
-      navigate('/home', { replace: true });
+      navigate('/', { replace: true });
     },
     onError: (err) => {
       console.log('ERROR', err);

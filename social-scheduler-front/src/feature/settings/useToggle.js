@@ -7,7 +7,7 @@ export function useToggle() {
     const { mutate: toggle, isLoading: isToggle } = useMutation({
       mutationFn: PlatformService.togglePlatform,
       onSuccess: () => {
-        toast.success("platform platform toggle successfully");
+        toast.success("platform toggle successfully");
       },
       onError: (err) => toast.error(err.message),
 })
